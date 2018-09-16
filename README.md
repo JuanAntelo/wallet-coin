@@ -1,4 +1,4 @@
-# paper-wallet
+# wallet-coin
 
 [![NPM version][npm-image]][npm-url][![Dependency Status](https://img.shields.io/david/harietqyun/paper-wallet.svg?style=flat-square)](https://david-dm.org/harietqyun/paper-wallet)[![Downloads][downloads-image]][downloads-url]
 
@@ -7,7 +7,7 @@
 [downloads-image]: https://img.shields.io/npm/dm/paper-wallet.svg?style=flat-square
 [downloads-url]: https://www.npmjs.com/package/paper-wallet
 
-Generate paper wallet for bitcoin and altcoins with CLI.
+Generate wallet for bitcoin and altcoins with CLI.
 
 ## Supported Coins
 * Bitcoin (BTC)
@@ -27,19 +27,31 @@ Generate paper wallet for bitcoin and altcoins with CLI.
 
 ## Installation
 ```bash
-npm install -g paper-wallet
+npm install wallet-coin -save
 ```
 
 ## Usage
 ```bash
-paper-wallet [btc|bch|btg|dash|dcr|doge|eos|eth|ltc|mona|qtum|rdd|zec]
+var walletCoin = require('wallet-coin');
+```
+```bash
+walletCoin.wallet('btc|bch|btg|dash|dcr|doge|eos|eth|ltc|mona|qtum|rdd|zec');
+```
+```bash
+console.log(walletCoin.wallet('btc'));
+```
+
+<h3>function return:</h3>
+```bash
+{ publicAddress: '18cgqTpken7wkYqFgWaZ2ZK86pgPb7Q5F4',
+  privateKey: 'KxNHvT2FgiSedTSG5NfRKJA9sVHkR45QZd31zcsgmsmW2WpFCoYz' }
 ```
 
 paper-wallet-[symbol]-[timestamp].pdf file will be generated in current folder for printing.
 
 ## Secure Offline Paper Wallet Generation
 
-It's recommended to use an air-gapped computer for high value paper wallet generation. 
+It's recommended to use an air-gapped computer for high value wallet coin generation. 
 
 * Download and install the latest Node.js binaries from https://nodejs.org/en/
 
@@ -47,11 +59,9 @@ It's recommended to use an air-gapped computer for high value paper wallet gener
 
 * Disconnect from network
 
-* Generate and print the paper wallet
+* Generate and print the wallet coin
 
-## Preview
-
-![alt text](https://raw.githubusercontent.com/harietqyun/paper-wallet/master/preview.png)
 
 ## Donations
-BTC: 19uibExshDiqF8X2TBLaEiMK2WJ9j2xfAS
+
+[![paypal](https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRPG68JZFXGQG)
