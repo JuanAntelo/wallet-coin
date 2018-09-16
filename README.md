@@ -56,5 +56,4 @@ It's recommended to use an air-gapped computer for high value wallet coin genera
 
 ## Donations
 
-[![paypal](https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRPG68JZFXGQG)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](KRPG68JZFXGQG)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KRPG68JZFXGQG)
